@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url(font.css);
+@import url(values.css);
+
+body {
+    background: linear-gradient(to top right, #02aab0, #00cdac 90%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form-mother {
+    width: 290px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px 20px;
+    position: absolute;
+    background: #112f4b;
+    border-radius: 10px;
+    border: 3px solid #2ecc71;
+    position: relative;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border: 2px solid #3498db;
+    padding: 8px 12px;
+    border-radius: 50px;
+    margin-top: 15px;
+    transition: all ease-in-out 0.3s;
+    background: transparent;
+    color: #ffffff;
+}
+
+form input:focus {
+    border: 2px solid #2ecc71;
+}
+
+form button {
+    border: 2px solid #3498db;
+    padding: 8px 12px;
+    border-radius: 50px;
+    margin-top: 15px;
+    color: #ffffff;
+    background: transparent;
+    transition: all ease-in-out 0.3s;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+form input::placeholder {
+    text-align: center;
+}
+
+form button:hover {
+    background: #2ecc71;
+    border: 2px solid #2ecc71;
+}
+
+form h1 {
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+form a {
+    margin-top: 10px;
+    color: #ffffff;
+}
